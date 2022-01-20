@@ -1,0 +1,23 @@
+Írjunk akasztófás játékprogramot! 
+
+Ehhez először is írjuk meg a következő függvényeket: 
+
+1. A beolvas nevű függvény megkap egy fájlnevet paraméterként. Beolvassa, és egy listában eltárolja a benne található adatokat(állomány egy sora egy listaelem).
+A lista legyen a függvény visszatérési értéke.
+
+2. A feladvany nevű függvény megkap egy szót paraméterként, és visszatér egy olyan sztringgel, amelynek az első és utolsó betűje megegyezik a kapott szóéval, közte pedig annyi '.' karakter, ahány betű van a kettő között.
+
+3. A cserel nevű függvény három paramétert kap, a feladvany sztringet, a gondolt szót, és egy betűt, ami megtalálható valahányszor a gondolt szóban. A feladvany sztringben cseréljük le azokat a pontokat a betűre, amelyek a gondolt szóban az adott helyen megtalálhatók.(Az összeset!)
+
+4. Ha ezekkel megvagyunk, akkor a main() eljárás megírása szükséges még. (A program törzsében csak ez az egy eljáráshívás szerepeljen!)
+  - Ebben hívjuk meg a beolvas függvényt a 'helyek.txt' névvel!
+  - Válasszunk egyet véletlenszerűen a visszakapott helységek listából!
+  - Állítsuk elő a kiírandó feladványt a feladvany függvény meghívásával!
+  - Írjuk ki a feladványt!
+  - Majd addig ismételjük a következőket, amíg a kiírandó és a "gondolt" szó nem egyezik meg:
+	- kérjünk be egy betűt
+	- ha ez a betű benne van a "gondolt" szóban, akkor a cserel függvény meghívásával aktualizáljuk a feladványt!
+	- ha nincs benne, akkor ezt egy üzenetben közöljük
+	- Írjuk ki a feladványt!
+  - A ciklus után gratuláljunk a játékosnak a megfejtéshez!
+  - A feladat tovább fejleszthető, hogy csak adott számszor téveszthessen a játékos, azután "felakasztják"!
